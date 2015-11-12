@@ -1,6 +1,6 @@
 # Pull base image.
 FROM node:4
-MAINTAINER Marcelo Colomer 
+MAINTAINER Marcelo Colomer GFT
 
 # Install Bower & Grunt
 RUN npm install -g bower grunt-cli && \
